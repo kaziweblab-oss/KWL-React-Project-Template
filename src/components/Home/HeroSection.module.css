@@ -1,0 +1,9 @@
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #45414d;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 1rem;
+}

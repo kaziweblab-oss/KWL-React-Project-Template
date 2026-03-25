@@ -1,0 +1,9 @@
+.navSection {
+  box-sizing: border-box;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #45274b;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+}
