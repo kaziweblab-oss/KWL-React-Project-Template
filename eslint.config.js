@@ -36,7 +36,7 @@ export default defineConfig([
       ...reactHooks.configs.recommended.rules,
       "prettier/prettier": "warn",
       "no-unused-vars": [
-        "warn",
+        "error",
         { vars: "all", args: "after-used", ignoreRestSiblings: true },
       ],
       "react/prop-types": "off",
@@ -44,7 +44,7 @@ export default defineConfig([
         "warn",
         { allowConstantExport: true },
       ],
-      "no-console": "warn",
+      "no-console": "error",
     },
   },
   prettierConfig,
